@@ -1,6 +1,43 @@
+/* hide scrollbar but allow scrolling */
+body {
+    -ms-overflow-style: none; /* for Internet Explorer, Edge */
+    scrollbar-width: none; /* for Firefox */
+    overflow-y: scroll;
+}
+
+    body::-webkit-scrollbar {
+        display: none; /* for Chrome, Safari, and Opera */
+    }
+
 .programadorx-logo {
     height: 100%;
     width: auto;
     max-width: 100%;
     border-radius: 50%;
 }
+
+.navbar-light .navbar-nav .nav-link {
+    color: #ffffff;
+}
+
+.display-1 {
+    color: #ffffff;
+}
+
+#jobA, #jobB, #jobC {
+    border-style: inset;
+}
+
+#jobA{
+    margin-left: 250px;
+}
+
+#jobB {
+    margin-left: 300px;
+}
+
+#jobC {
+    margin-left: 450px;
+}
+
+    
