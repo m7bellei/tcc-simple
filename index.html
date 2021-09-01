@@ -2,7 +2,7 @@
     <html lang="en">
     <head>
         <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!--<meta name="viewport" content="width=device-width, initial-scale=1.0">-->
 
         <!--==================== UNICONS ====================-->
         <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
@@ -24,32 +24,32 @@
                 <div class="nav__menu" id="nav-menu">
                     <ul class="nav__list grid">
                         <li class="nav__item">
-                            <a href="#home" class="nav__link active-link">
+                            <a class="nav__link">
                                 <i class="uil uil-estate nav__icon"></i> Home
                             </a>
                         </li>
                         <li class="nav__item">
-                            <a href="#about" class="nav__link">
+                            <a class="nav__link">
                                 <i class="uil uil-user nav__icon"></i> About
                             </a>
                         </li>
                         <li class="nav__item">
-                            <a href="#skills" class="nav__link">
+                            <a class="nav__link">
                                 <i class="uil uil-file-alt nav__icon"></i> Knowledge
                             </a>
                         </li>
                         <li class="nav__item">
-                            <a href="#services" class="nav__link">
+                            <a class="nav__link">
                                 <i class="uil uil-briefcase-alt nav__icon"></i> Services
                             </a>
                         </li>
                         <li class="nav__item">
-                            <a href="#portfolio" class="nav__link">
+                            <a class="nav__link">
                                 <i class="uil uil-scenery nav__icon"></i> Portfolio
                             </a>
                         </li>
                         <li class="nav__item">
-                            <a href="#" class="nav__link">
+                            <a class="nav__link">
                                 <i class="uil uil-message nav__icon"></i> Contact
                             </a>
                         </li>
@@ -57,16 +57,16 @@
                     <i class="uil uil-times nav__close" id="nav-close"></i>
                 </div>
 
-                <div class="nav__btns">
+                <!--<div class="nav__btns">-->
                     <!-- Theme change button -->
-                    <i class="uil uil-moon change-theme" id="theme-button"></i>
+                    <!--<i class="uil uil-moon change-theme" id="theme-button"></i>
 
 
                     <div class="nav__toggle" id="nav-toggle">
                     <i class="uil uil-apps"></i>
                     </div>
 
-                </div>
+                </div>-->
             </nav>
             
         </header>
@@ -74,7 +74,7 @@
         <!--==================== MAIN ====================-->
         <main class="main">
             <!--==================== HOME ====================-->
-            <section class="home section" id="home">
+            <section class="home section">
                 <div class="home__container container grid">
                     <div class="home__content grid">
                         <div class="home__social">
@@ -119,18 +119,11 @@
                             </a>
                         </div>
                     </div>
-                    <div class="home__scroll">
-                        <a href="#about" class="home__scroll-button button--flex">
-                            <i class="uil uil-mouse-alt home__scroll-mouse"></i>
-                            <span class="home__scroll-name">Arrastar para baixo</span>
-                            <i class="uil uil-arrow-down home__scroll-arrow"></i>
-                        </a>
-                    </div>
                 </div>
             </section>
 
             <!--==================== ABOUT ====================-->
-            <section class="about section" id="about">
+            <section class="about section space">
                 <h2 class="section__title">Sobre Mim</h2>
                 <span class="section__subtitle">Introdução</span>
                 <div class="about__container container grid">
@@ -168,7 +161,7 @@
             </section>
 
             <!--==================== SKILLS ====================-->
-            <section class="skills section" id="skills">
+            <section class="skills section space">
                 <h2 class="section__title">Habilidades</h2>
                 <span class="section__subtitle">Nível Técnico</span>
 
@@ -332,7 +325,7 @@
             </section>
 
             <!--==================== QUALIFICATION ====================-->
-            <section class="qualification section">
+            <section class="qualification section space">
                 <h2 class="section__title">Qualificações</h2>
                 <span class="section__subtitle">Minha Jornada</span>
 
@@ -488,7 +481,7 @@
             </section>
 
             <!--==================== SERVICES ====================-->
-            <section class="services section" id="services">
+            <section class="services section space">
                 <h2 class="section__title">Serviços</h2>
                 <span class="section__subtitle">O que eu faço?</span>
 
@@ -625,7 +618,7 @@
             </section>
 
             <!--==================== PORTFOLIO ====================-->
-            <section class="portfolio section" id="portfolio">
+            <section class="portfolio section space">
                 <h2 class="section__title">Portfolio</h2>
                 <span class="section__subtitle">Trabalhos mais recentes</span>
 
@@ -690,25 +683,25 @@
             </section>
 
             <!--==================== PROJECT IN MIND ====================-->
-            <section class="project section">
+            <section class="project section space">
                 <div class="project__bg">
                     <div class="project__container container grid">
+                        <h2 class="project__title">Você tem um novo projeto em mente?</h2>
+                        <p class="project__description">Deixe com a gente! entre em contato.</p>
                         <div class="project__data">
-                            <h2 class="project__title">Você tem um novo projeto em mente?</h2>
-                            <p class="project__description">Deixe com a gente! entre em contato.</p>
                             <a href="#contact" class="button button--flex button--white">
                                 Contato <i class="uil uil-message project__icon button__icon"></i>
                             </a>
                         </div>
 
-                        <img src="assets/img/shelby-company.jpg" alt="" class="project__img">
+                        <img src="assets/img/shelby-company.jpg" alt="" class="project__img" style="margin-top: -110px;">
                     </div>
                 </div>
 
             </section>
 
             <!--==================== TESTIMONIAL ====================-->
-            <section class="testimonial section">
+            <section class="testimonial section space">
                 <h2 class="section__title">Meu Esquadrão</h2>
                 <span class="section__subtitle">Seu projeto estará em boas mãos.</span>
 
@@ -836,7 +829,7 @@
             </section>
 
             <!--==================== CONTACT ME ====================-->
-            <section class="contact section" id="contact">
+            <section class="contact section space">
                 <h2 class="section__title">Contato</h2>
                 <span class="section__subtitle">Entrar em contato</span>
 
@@ -942,9 +935,9 @@
         </footer>
         
         <!--==================== SCROLL TOP ====================-->
-        <a href="" class="scrollup" id="scroll-up">
+        <!--<a href="" class="scrollup" id="scroll-up">
             <i class="uil uil-arrow-up scrollup__icon"></i>
-        </a>
+        </a>-->
 
         <!--==================== SWIPER JS ====================-->
         <script src="assets/js/swiper-bundle.min.js"></script>
