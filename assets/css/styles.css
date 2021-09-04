@@ -7,10 +7,10 @@
 
     /*========== Colors ==========*/
     /* Change favorite color */
-    --hue-color: 888; /*Purple 250 - Green 142 - Blue 230 - Pink 340*/
+    --hue-color: 230; /*Purple 250 - Green 142 - Blue 230 - Pink 340*/
 
     /* HSL color mode */
-    --first-color: hsl(var(--hue-color), 100%, 55%);
+    --first-color: hsl(var(--hue-color), 0%, 85%);
     --first-color-second: hsl(var(--hue-color), 100%, 55%);
     --first-color-alt: hsl(var(--hue-color), 57%, 53%);
     --first-color-lighter: hsl(var(--hue-color), 92%, 85%);
@@ -800,6 +800,7 @@ html {
 .testimonial__data {
     justify-content: space-between;
     margin-bottom: var(--mb-1);
+    margin: 50px;
 }
 
 .testimonial__info {
